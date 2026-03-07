@@ -1,0 +1,22 @@
+{
+  "name": "contributing-to-pi-mono",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Public pi extension and skill for contributing upstream to badlogic/pi-mono without wasting maintainer time.",
+  "pi": {
+    "extensions": [
+      "./extensions/pi-mono-search/index.ts"
+    ]
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mariozechner/pi-coding-agent": "~0.52.12",
+    "@sinclair/typebox": "^0.34.33"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
